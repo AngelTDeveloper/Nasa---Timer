@@ -35,7 +35,7 @@ timerButton.addEventListener('click', () => {
                 hour--;
             }
         }
-    }, 3000);
+    }, 1000);
 });
 
 reloadButton.addEventListener('click', () => {
