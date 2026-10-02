@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NASA TIMER</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="nasa-logo.svg" type="image/x-icon">
+</head>
+
+<body>
+
+    <div id="container-timer-title">
+        <h1>NASA TIMER</h1>
+    </div>
+
+    <main id="main-timer-wrapper">
+
+        <div id="container-timer-card">
+            <span id="timer-card-data">
+                00 : 00 : 00
+            </span>
+        </div>
+
+        <div id="container-timer-input">
+            <label for="hour-input">Ingresa las Horas</label>
+            <input type="number" id="hour-input" placeholder="Horas" min="0">
+
+            <label for="minute-input">Ingresa los Minutos</label>
+            <input type="number" id="minute-input" placeholder="Minutos" min="0">
+
+            <label for="second-input">Ingresa los Segundos</label>
+            <input type="number" id="second-input" placeholder="Segundos" min="0">
+        </div>
+
+    </main>
+
+    <div id="container-timer-button">
+        <button id="timer-button">START</button>
+        <button id="reload-button">↻</button>
+    </div>
+
+    <footer>
+        <a href="https://github.com/AngelTDeveloper" target="_blank">Desarrollado por Angel Torres</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
